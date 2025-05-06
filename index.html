@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARMONI - Estilo y Decoración</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAV -->
+  <header class="header">
+    <!-- Solo la imagen del logo como enlace -->
+    <a href="#inicio" class="logo">
+      <img src="img/logo.png" alt="Logo ARMONI">
+      <span class="empresa-nombre">ARMONI</span>
+    </a>
+    
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#productos">Productos</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <h1 data-aos="fade-up">Dale estilo y dulzura a tu hogar con ARMONI</h1>
+    <p data-aos="fade-up" data-aos-delay="200">Decoración, detalles y golosinas con un toque único</p>
+    <a href="https://www.instagram.com/armoni_2020?igsh=MTdpaHgxY201ZDdq" target="_blank" class="btn" data-aos="zoom-in" data-aos-delay="400">Visítanos en Instagram</a>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="nosotros" id="nosotros">
+    <div class="contenido" data-aos="fade-right">
+      <h2>¿Quiénes somos?</h2>
+      <p>ARMONI nace con el deseo de llenar tu hogar de belleza, estilo y dulzura. Ofrecemos productos para decoración, accesorios y regalos únicos hechos con amor.</p>
+    </div>
+  </section>
+
+  <!-- UBICACIÓN -->
+<section class="ubicacion" id="ubicacion">
+  <h2 data-aos="fade-up">¿Dónde estamos?</h2>
+  <div class="contenedor-ubicacion" data-aos="fade-up" data-aos-delay="100">
+    <div class="info-ubicacion">
+      <img src="https://img.icons8.com/ios-filled/50/000000/marker.png" alt="Ubicación" style="width: 30px; vertical-align: middle;">
+      <p>Barrio el tanque, zona 1, Santa Lucía Utatlán Sololá, en locales 2 y 3 de comercial Inssa</p>
+      <a href="https://maps.app.goo.gl/8T3yQSF16tbhBNa87?g_st=iw" target="_blank" class="btn-mapa">
+        Ver en Google Maps
+      </a>
+    </div>
+    <div class="mapa">
+      <!-- Mapa incrustado sin API KEY -->
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.030000000000!2d-91.2676184!3d14.7714412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a10ec4c781bd%3A0x6e820c5796ff0bb6!2sSanta+Luc%C3%ADa+Utatl%C3%A1n%2C+Solol%C3%A1!5e0!3m2!1ses!2sgt!4v1680000000000!5m2!1ses!2sgt" 
+        width="100%" 
+        height="250" 
+        style="border:0; border-radius: 12px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+  <!-- PRODUCTOS -->
+  <section class="productos" id="productos">
+    <h2 data-aos="fade-up">Nuestros Productos</h2>
+    <div class="grid">
+      <div class="card" data-aos="flip-left"><h3>Decoración</h3><p>Cortinas, repisas, alfombras</p></div>
+      <div class="card" data-aos="flip-left" data-aos-delay="100"><h3>Detalles y Regalos</h3><p>Gorras, toallas, sorpresas</p></div>
+      <div class="card" data-aos="flip-left" data-aos-delay="200"><h3>Dulces</h3><p>Gomitas, gomitas preparadas y más</p></div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="galeria" id="galeria">
+    <h2 data-aos="fade-up">Galería</h2>
+    <div class="imagenes" data-aos="fade-up" data-aos-delay="100">
+      <!-- Aquí puedes poner tus imágenes reales -->
+      <img src="img/cortinas.jpg" alt="Producto 1" />
+      <img src="img/2.jpg" alt="Producto 2" />
+      <img src="img/3.jpg" alt="Producto 3" />
+    </div>
+  </section>
+
+ <!-- reseñas -->
+  <section class="testimonios" id="testimonios">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <div class="contenedor-testimonios">
+      <div class="tarjeta-testimonio">
+        <p>“ARMONI transformó mi evento en algo mágico. Totalmente recomendado.”</p>
+        <h4>- Branly Alva</h4>
+      </div>
+      <div class="tarjeta-testimonio">
+        <p>“Excelente atención, puntualidad y buen gusto en cada detalle.”</p>
+        <h4>- Branly Alva</h4>
+      </div>
+      <div class="tarjeta-testimonio">
+        <p>“Decoraron nuestro aniversario como un sueño. 100% profesionales.”</p>
+        <h4>- Maycol Cafecito</h4>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CONTACTO -->
+<section class="contacto" id="contacto">
+  <div class="formulario">
+    <h2>Contáctanos por WhatsApp</h2>
+    <form id="whatsapp-form">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" placeholder="Tu nombre" required>
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" placeholder="¿En qué podemos ayudarte?" required></textarea>
+
+      <button type="submit" style="background-color: #25D366; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; display: flex; align-items: center; gap: 10px;">
+        <img src="https://img.icons8.com/ios-filled/24/ffffff/whatsapp.png" alt="WhatsApp" style="width: 20px; height: 20px;">
+        Enviar por WhatsApp
+      </button>
+    </form>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 ARMONI. Todos los derechos reservados.</p>
+    <a href="https://www.instagram.com/armoni_2020?igsh=MTdpaHgxY201ZDdq" target="_blank">Instagram</a>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- SCRIPT FINAL -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('whatsapp-form');
+
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const nombre = document.getElementById('nombre').value.trim();
+        const mensaje = document.getElementById('mensaje').value.trim();
+
+        if (!nombre || !mensaje) {
+          alert('Por favor completa todos los campos.');
+          return;
+        }
+
+        const numeroWhatsApp = '50230029463';
+        const texto = `Hola, soy *${nombre}*.\n${mensaje}`;
+        const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
+
+
+        window.open(url, '_blank');
+      });
+    } else {
+      console.error('No se encontró el formulario con id "whatsapp-form"');
+    }
+  });
+</script>
+  
+  
+</body>
+</html>
